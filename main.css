@@ -6,8 +6,7 @@ body {
 p {
     font-size: 100px;
     letter-spacing: 50px;
-    text-align: left;
-    margin-right: 300px;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -17,11 +16,6 @@ img {
     text-align: center;
 }
 
-.text {
-    display: inline-block;
-    vertical-align: top;
-    position: absolute;
-}
 
 .ruins { 
     background-color: red;
