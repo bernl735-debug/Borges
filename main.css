@@ -18,17 +18,17 @@ img {
 
 
 .ruins { 
-    background-color: red;
+    background-color: black;
     color: azure;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .sand {
-background-color: blue;
+background-color: black;
 color: azure;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
@@ -51,10 +51,10 @@ color: black;
     font-size: 20px;
 }
 .garden {
-    background-color: green;
+    background-color: black;
     color: azure;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .ruins:before {
