@@ -20,15 +20,15 @@ img {
 .ruins { 
     background-color: red;
     color: azure;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .sand {
 background-color: blue;
 color: azure;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 
 }
 
@@ -51,8 +51,8 @@ color: black;
 .garden {
     background-color: green;
     color: azure;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .ruins:before {
@@ -62,28 +62,66 @@ color: black;
     transition: 0,9 ease;
 }
 
-.ruins:hover:before{
-    width:100%;
+/*hover effects*/
+
+a.sandcolor:link,
+a.sandcolor:visited {
+  color: inherit; /* normal color */
+}
+a.sandcolor:hover,
+a.sandcolor:focus,
+a.sandcolor:active {
+  color: blue; 
+  transition: color .15s ease;
 }
 
-p > .sandcolor {
-    font-style:normal; 
+a.ruinscolor:link,
+a.ruinscolor:visited {
+  color: inherit;
 }
-p:hover >.sandcolor{
-    color: blue;
+a.ruinscolor:hover,
+a.ruinscolor:focus,
+a.ruinscolor:active {
+  color: red; 
+  transition: color .15s ease;
 }
 
-p > .ruinscolor {
-    font-style:normal; 
+a.gardencolor:link,
+a.gardencolor:visited {
+  color: inherit;
 }
-p:hover >.ruinscolor{
-    color: red;
+a.gardencolor:hover,
+a.gardencolor:focus,
+a.gardencolor:active {
+  color: green; 
+  transition: color .15s ease;
 }
-p > .gardencolor {
-    font-style:normal; 
+/*change in pages*/
+
+.changered,
+.changered:link,
+.changered:visited,
+.changered:hover,
+.changered:active {
+  color: red;
 }
-p:hover >.gardencolor{
-    color: green;
+
+.changeblue,
+.changeblue:link,
+.changeblue:visited,
+.changeblue:hover,
+.changeblue:active {
+  color: blue;
 }
+
+.changegreen,
+.changegreen:link,
+.changegreen:visited,
+.changegreen:hover,
+.changegreen:active {
+  color: green;
+}
+
 a:link, a:visited, a:hover, a:active {text-decoration: none;}
 a:visited {color: transparent;}
+
