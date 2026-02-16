@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 p {
@@ -19,8 +20,8 @@ img {
 
 
 .ruins { 
-    background-color: red;
-    color: azure;
+    background-color: white;
+    color:black;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -30,28 +31,60 @@ background-color: blue;
 color: azure;
     margin-left: 10%;
     margin-right: 10%;
-
+  text-align: left;
+    display: block;
+    margin-left: 10%;
+    transition: all 0.5s ease;
 }
 
 h1{
-text-align: center;
-background-color: azure;
+text-align: left;
 padding: 3%;
 color: black;
 font-family: 'Courier New', Courier, monospace;
+font-size: 180px;
+transition: all 0.5s ease;
+position: relative;
+letter-spacing: 50px;
+margin: 10px;
+}
 
+h1.scrolled {
+position: fixed;
+top: 0;
+left: 0;
+font-size: 50px;
+padding: 15px;
+text-align: left;
+width: auto;
+background-color: rgba(255, 255, 255, 0.9);
+z-index: 1000;
+color: #e41918;
+}
+
+
+span.scrolled {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 30%;
+    height: 40%;
+    margin: 0;
+    z-index: 999;
 }
 
 .p1 {
-    text-align: left;
-    font-size: 20px;
-  
-
+  text-align: left;
+  font-size: 20px;
+  margin-right: 40%;
+  letter-spacing: 0px;
 }
 
 .p2 {
-     text-align: left;
-    font-size: 20px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 40%;
+  letter-spacing: 0px;
 }
 .garden {
     background-color: green;
