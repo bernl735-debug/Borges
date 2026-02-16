@@ -47,6 +47,7 @@ transition: all 0.5s ease;
 position: relative;
 letter-spacing: 50px;
 margin: 10px;
+color: black;
 }
 
 h1.scrolled {
@@ -62,17 +63,15 @@ h1.scrolled {
   width: auto;
   background-color: rgba(255, 255, 255, 0.9);
   z-index: 1000;
-  color: #e41918;
 }
 
 
 h1.scrolled br { display: none; }
 
 
-.tittlesand.scrolled,
-.tittlesand.scrolled .bluesand {
-  color: blue;
-}
+
+
+
 
 .tittlesand {
     text-align: left;
@@ -135,10 +134,9 @@ span.scrolled {
     color:red;
     position: absolute;
     overflow: hidden;
-    transition: 0,9 ease;
+    transition: 0.9s ease;
 }
 
-/*hover effects*/
 
 a.sandcolor:link,
 a.sandcolor:visited {
@@ -178,7 +176,6 @@ a.gardencolor:active {
   display: inline-block;
   transition: all 0.15s ease;
 }
-/*change in pages*/
 
 .changered,
 .changered:link,

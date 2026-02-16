@@ -9,6 +9,7 @@ window.addEventListener('scroll', function() {
         h1.classList.remove('scrolled');
         span.classList.remove('scrolled');
     }
+
 });
 
 const span = document.querySelector('span');
