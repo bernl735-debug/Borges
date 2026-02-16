@@ -10,3 +10,8 @@ window.addEventListener('scroll', function() {
         span.classList.remove('scrolled');
     }
 });
+
+const span = document.querySelector('span');
+span.addEventListener('click', function() {
+    span.classList.toggle('rotated');
+});
