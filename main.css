@@ -123,6 +123,10 @@ span.scrolled {
   margin-top: 300px;
   letter-spacing: 0px;
 }
+
+.home{
+  text-align: center;
+}
 .garden {
     background-color: white;
     color: black;
